@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://populardoodlegames.net/sitemap.xml
+Host: https://populardoodlegames.net

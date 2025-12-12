@@ -1,3 +1,21 @@
+:root {
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.inter_b2991b2-module__9mH_6q__variable,
+.rajdhani_93248dc9-module__31Qq0a__variable {
+    font-family: var(--font-sans);
+}
+
+.font-heading {
+    font-family: var(--font-heading);
+}
+
+img {
+    content-visibility: auto;
+}
+
 *,
  :before,
  :after,

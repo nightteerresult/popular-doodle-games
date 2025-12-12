@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html class="dark" lang="en">
+<html lang="en">
 
 <head>
+    <script>(function(){try{var s=localStorage.getItem('theme');var d=s?s==='dark':(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);var r=document.documentElement;if(d){r.classList.add('dark');r.classList.remove('light');}else{r.classList.remove('dark');r.classList.add('light');}}catch(e){}})();</script>
     <meta name="color-scheme" content="dark">
     <link rel="preload" href="../assets/site.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="../assets/site.css"></noscript>
@@ -36,10 +37,10 @@
     <link rel="icon" href="/favicon.png" type="image/png" />
 </head>
 
-<body class="flex flex-col min-h-screen dark">
+<body class="flex flex-col min-h-screen">
     <div class="flex-1">
         <div class="min-h-screen">
-            <header class="border-b bg-background">
+            <header class="border-b bg-background" style="min-height:4rem">
                 <div class="container mx-auto px-4">
                     <div class="flex items-center justify-between h-16"><a class="text-xl md:text-2xl font-heading font-bold" data-testid="link-home" href="/">Play Popular Doodle Games</a>
                         <nav class="hidden md:flex items-center gap-6"><a class="hover-elevate px-3 py-2 rounded-md" data-testid="link-browse" href="/browse">Browse</a><a class="hover-elevate px-3 py-2 rounded-md" data-testid="link-categories" href="/categories">Categories</a>

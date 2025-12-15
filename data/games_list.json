@@ -104,9 +104,9 @@
     },
     {
         "id": "14",
-        "name": "Cricket",
-        "img": "https://populardoodlegames.net/data/doodle-images/14.jpg",
-        "link": "https://www.google.com/logos/2017/cricket17/cricket17.html",
+        "name": "Celebrating the late We:wa Doodle - Google Doodles",
+        "img": "https://populardoodlegames.net/data/doodle-images/40.gif",
+        "link": "https://www.google.com/logos/2021/wewa/rc7/wewa.html",
         "favorites": false,
         "tab": false
     },
@@ -307,14 +307,6 @@
         "name": "Celebrating Pizza Doodle - Google Doodles",
         "img": "https://populardoodlegames.net/data/doodle-images/39.gif",
         "link": "https://www.google.com/logos/2021/pizza/rc5/pizza.html",
-        "favorites": false,
-        "tab": false
-    },
-    {
-        "id": "40",
-        "name": "Celebrating the late We:wa Doodle - Google Doodles",
-        "img": "https://populardoodlegames.net/data/doodle-images/40.gif",
-        "link": "https://www.google.com/logos/2021/wewa/rc7/wewa.html",
         "favorites": false,
         "tab": false
     }

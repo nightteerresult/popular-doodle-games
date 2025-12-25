@@ -1811,3 +1811,178 @@ body {
 .\[\&_svg\]\:shrink-0 svg {
     flex-shrink: 0
 }
+
+.bg-card h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fde68a;
+}
+
+.bg-card h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bg-card p {
+    margin-bottom: 16px;
+    color: #d1d5db;
+}
+
+
+/* Lists */
+
+.bg-card ul,
+.bg-card ol {
+    margin: 16px 0 24px 20px;
+    padding: 0;
+}
+
+.bg-card li {
+    margin-bottom: 10px;
+    color: #e5e7eb;
+}
+
+.bg-card ul li::marker {
+    color: #fbbf24;
+}
+
+.bg-card ol li::marker {
+    color: #fde68a;
+    font-weight: 600;
+}
+
+
+/* Strong text */
+
+.bg-card strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+/* ===== Game Details Section (Table Styling) ===== */
+
+.bg-card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18px;
+    background: #020617;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.bg-card table tr {
+    border-bottom: 1px solid #1e293b;
+}
+
+.bg-card table tr:last-child {
+    border-bottom: none;
+}
+
+.bg-card table td {
+    padding: 14px 16px;
+    font-size: 0.95rem;
+    color: #e5e7eb;
+}
+
+.bg-card table td:first-child {
+    width: 35%;
+    background: #020617;
+    color: #fbbf24;
+    font-weight: 600;
+    border-right: 1px solid #1e293b;
+}
+
+.bg-card table td:last-child {
+    background: #020617;
+    color: #d1d5db;
+}
+
+
+/* Hover effect for table rows */
+
+.bg-card table tr:hover td {
+    background: #020617;
+}
+
+
+/* Responsive tweaks */
+
+@media (max-width: 640px) {
+    .bg-card {
+        padding: 18px;
+    }
+    .bg-card h1 {
+        font-size: 1.6rem;
+    }
+    .bg-card h2 {
+        font-size: 1.25rem;
+    }
+    .bg-card table td {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+}
+
+.bg-card ul,
+.bg-card ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.bg-card ul {
+    list-style-type: disc;
+}
+
+.bg-card ol {
+    list-style-type: decimal;
+}
+
+.back-to-home {
+    padding: 6px;
+}
+
+.back-to-browse {
+    padding: 6px;
+}
+
+@media (max-width: 1024px) {
+    span.text-sm.md\:text-base.text-gray-600 {
+        display: none;
+    }
+}
+
+.browse-games-mobile {
+    padding: 5px;
+}
+
+.breadcrumbs {
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+.breadcrumbs ol {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumbs li::after {
+    content: "›";
+    margin-left: 6px;
+}
+
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+
+.breadcrumbs a {
+    color: #4da3ff;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}

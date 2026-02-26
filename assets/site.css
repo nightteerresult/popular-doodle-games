@@ -1986,3 +1986,39 @@ body {
 .breadcrumbs a:hover {
     text-decoration: underline;
 }
+
+.partner-scroll {
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 0;
+    background: transparent;
+    /* keeps it clean on blue bg */
+}
+
+.partner-scroll-track {
+    display: inline-block;
+    white-space: nowrap;
+    color: #f1f1f1;
+    font-size: 14px;
+    animation: partnerScroll 20s linear infinite;
+}
+
+.partner-link {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.partner-link:hover {
+    text-decoration: underline;
+}
+
+@keyframes partnerScroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
